@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.layout.assig20_1">
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+    <!--<manifest>
+                                     manifest is the root element of the AndroidManifest.xml file. It has package attribute that describes the package name of the activity class.
+
+                                     <application>
+                                     application is the subelement of the manifest. It includes the namespace declaration. This element contains several subelements that declares the application component such as activity etc.
+
+                                     The commonly used attributes are of this element are icon, label, theme etc.
+
+                                     android:icon represents the icon for all the android application components.
+
+                                     android:label works as the default label for all the application components.
+
+                                     android:theme represents a common theme for all the android activities.
+
+                                     <activity>
+                                     activity is the subelement of application and represents an activity that must be defined in the AndroidManifest.xml file. It has many attributes such as label, name, theme, launchMode etc.
+
+                                     android:label represents a label i.e. displayed on the screen.
+
+                                     android:name represents a name for the activity class. It is required attribute.
+
+                                     <intent-filter>
+                                     intent-filter is the sub-element of activity that describes the type of intent to which activity, service or broadcast receiver can respond to.
+
+                                     <action>
+                                     It adds an action for the intent-filter. The intent-filter must have at least one action element.
+
+                                     <category>
+                                     It adds a category name to an intent-filter.-->
